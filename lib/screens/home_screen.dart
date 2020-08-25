@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 import 'dart:async';
 import '../logic/timer_text_field.dart';
 import 'package:alarmclock/consts.dart';
+import 'package:alarmclock/screens/time_input.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -27,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               Expanded(
-                child: TimerTextField(),
+                child: InputHandler(),
               ),
             ],
           ),
